@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Base_Test_Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="SwagLabs_Test">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.tests.LoginTest"/>
+    </classes>
+  </test> <!-- SwagLabs_Test -->
+</suite> <!-- Failed suite [Base_Test_Suite] -->
