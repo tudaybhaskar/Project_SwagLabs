@@ -16,7 +16,7 @@ public class BasePage extends Page {
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
-
+//changes in base page
 	@Override
 	public String getPageHeader(By locator) {
 		return getWebElement(locator).getText();
